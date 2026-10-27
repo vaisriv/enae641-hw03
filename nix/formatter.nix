@@ -20,26 +20,6 @@ inputs.treefmt-nix.lib.mkWrapper pkgs {
         };
     };
 
-    # python
-    programs = {
-        ruff-check.enable = true;
-        ruff-format.enable = true;
-    };
-    settings.formatter = {
-        ruff-check = {
-            excludes = [
-                "example/src/p*.py"
-                "src/p*.py"
-            ];
-        };
-        ruff-format = {
-            excludes = [
-                "example/src/p*.py"
-                "src/p*.py"
-            ];
-        };
-    };
-
     # typst
     programs.typstyle = {
         enable = true;

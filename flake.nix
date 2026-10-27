@@ -1,5 +1,5 @@
 {
-    description = "<HW_ASSIGNMENT> flake";
+    description = "enae641-hw03 flake";
 
     inputs = {
         # nixpkgs

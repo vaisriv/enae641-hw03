@@ -9,11 +9,3 @@
 .direnv
 result
 result-*
-
-# latex
-**/.texaux
-**/*.synctex.gz
-
-# python
-**/.venv
-**/__pycache__
