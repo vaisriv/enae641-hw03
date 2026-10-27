@@ -1,0 +1,19 @@
+B_p = Pm^-1 B (columns: throttle, elevator):
+     0.055354    0.0063272
+    -0.018898     0.037862
+   -0.0044866     -0.34461
+    0.0042472     0.057417
+
+modal-block norms ||B_p(block, j)||:
+                    throttle    elevator
+                    ________    ________
+    phugoid         0.058491    0.038387
+    short period    0.006178     0.34936
+ratios (larger / smaller): throttle 9.47, elevator 9.1
+
+projection of each input direction onto each mode's plane, ||Pm_k B_p,k(:, j)||:
+                    throttle     elevator
+                    _________    ________
+    phugoid          0.055537    0.028592
+    short period    0.0047472      0.3458
+ratios (larger / smaller): throttle 11.7, elevator 12.1

@@ -1,0 +1,15 @@
+rho = lambda_max(P) = 64.6918
+eta = lambda_min(P) = 0.18734
+nu  = lambda_min(Q) = 1
+gamma  = sqrt(rho / eta) = 18.5827
+lambda = nu / (2 rho)   = 0.00772896 1/s
+
+slowest decay rate of A, min |Re(lambda)| = 0.0142529 1/s
+max_t ||e^(At)||_2 = 1.12748 at t = 17.49 s
+bound >= ||e^(At)||_2 on the whole grid: true
+
+lambda_max of P restricted to the phugoid plane = 59.69  (1 / (2 |sigma_1|) = 35.08)
+|Re(v_ph)| = 1.03, |Im(v_ph)| = 0.697, angle between them = 76.7 deg
+smallest M with ||e^(At)||_2 <= M e^(-lambda t): 1.342
+|sigma_3| / |sigma_1| = 118.9
+modal bound: ||x(t)|| <= cond(Pm) e^(sigma_1 t) ||x0||, cond(Pm) = 2.621

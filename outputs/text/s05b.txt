@@ -1,0 +1,10 @@
+x0 = w, the unit eigenvector of A + A' for its largest eigenvalue:
+        0.241     -0.68199      0.34272      0.59946
+d/dt ||x||^2 at t = 0: w'(A + A')w = 0.700643 > 0
+max ||x(t)|| / ||x0|| = 1.03493 at t = 0.16 s (back below 1 at t = 0.32 s)
+
+x0 = x_w, the unit vector maximizing ||e^(At)x0|| at t = 17.49 s:
+    -0.015632      0.27454     -0.95815     -0.07953
+max ||x(t)|| / ||x0|| = 1.12748 at t = 17.49 s
+
+V = x'Px nonincreasing along both solutions: true

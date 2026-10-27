@@ -1,0 +1,27 @@
+phugoid eigenvector v_ph (polar form, relative to speed):
+          state              r        phi_deg 
+    _________________    _________    ________
+    "speed"                      1           0
+    "angle of attack"    0.0081341     -178.61
+    "pitch angle"          0.73588     -108.76
+    "pitch rate"          0.080611    -0.94167
+
+short-period eigenvector v_sp (polar form, relative to pitch rate):
+          state             r       phi_deg
+    _________________    _______    _______
+    "speed"               0.0216    -49.936
+    "angle of attack"    0.43528    -98.382
+    "pitch angle"        0.15951    -129.48
+    "pitch rate"               1          0
+
+phugoid x0 = Re(v_ph):
+            1   -0.0081317     -0.23666       0.0806
+z0 = Pm^-1 x0:
+     1     0     0     0
+max |z3|, |z4| over the phugoid response:  1.42e-16
+
+short-period x0 = Re(v_sp):
+     0.013902    -0.063454     -0.10141            1
+z0 = Pm^-1 x0:
+     0     0     1     0
+max |z1|, |z2| over the short-period response:  3.72e-16
